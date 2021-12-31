@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box; 
+
+   }
+   body {
+     margin: 0;
+
+   }
+   #main {
+     display: flex;
+     min-height:100px;
+
+   }
+   article {
+     flex: 1;
+
+   }
+   
+    nav{
+      order: -1;
+
+   }
+    aside {
+     flex: 0 0 20vw;
+     background: blue;
+
+   }
+    nav {
+     order: -1;
+     height: 500px;
+
+   }
+   header {
+     padding: 1em;
+     background: red;
+     height: 100px  ;
+   }
+   footer {
+     background: red;
+     height: 100px;
+   }
