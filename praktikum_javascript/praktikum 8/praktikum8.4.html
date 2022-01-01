@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <title>SOAL NOMER 4</title>
+  <script>
+   function getjumlah () //jumlahBilangan
+   {
+    var hasil;
+    var bil1;
+    var bil2;
+    input1 = parseInt(document .getElementById("txtinput1").value);
+    input2 = parseInt(document .getElementById("txtinput2").value);
+    //proses
+    hasil = bil1 + bil2;
+    //output
+    document.getElementById("txthasil").value = hasil;
+   }
+  </script>
+ </head>
+ <body>
+     <h3>MENGHITUNG JUMLAH DUA BILANGAN</h3>
+  <div>
+   <div>
+    <label> Bilangan Pertama </label>
+    <input type="text" id="txtinput1"/>
+   </div>
+   <h10>+</h10>
+   <div>
+    <label> Bilangan Kedua </label>
+    <input type="text" id="txtinput2"/>
+   </div>
+   <br>
+   <div>
+    <input type="button" value="jumlah" onclick="getjumlah()"/>
+   </div>
+   <br>
+   <div>
+    <label> Hasil </label>
+    <input type="text" id="txthasil"/>
+   </div>
+   
+  </div>
+ </body>
